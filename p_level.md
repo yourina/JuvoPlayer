@@ -1,3 +1,4 @@
+```mermaid
 flowchart TB
   IMG[Image] --> STEM[Stem] --> BB[Backbone] --> FPN[FPN]
 
@@ -22,3 +23,4 @@ flowchart TB
     ROI --> HEADS[ROIHeads/Mask/KP]
     HEADS --> OUT[Outputs]
   end
+```
